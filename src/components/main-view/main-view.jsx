@@ -73,7 +73,7 @@ export class MainView extends React.Component {
     return (
       <Router>
         <div className="main-view">
-          <Navbar bg="light" expand="md">
+          {user ? <Navbar bg="light" expand="md">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
@@ -83,7 +83,8 @@ export class MainView extends React.Component {
               </Nav>
 
             </Navbar.Collapse>
-          </Navbar>
+          </Navbar> :
+            <div />}
           <Route exact path="/" render={() => {
             if (!user) return <LoginView onLoggedIn={user => this.onLoggedIn(user)} />;
             return <MovieList movies={movies} />;

@@ -55016,7 +55016,7 @@ var MainView = /*#__PURE__*/function (_React$Component) {
       });
       return /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement("div", {
         className: "main-view"
-      }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar, {
+      }, user ? /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar, {
         bg: "light",
         expand: "md"
       }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar.Toggle, {
@@ -55036,7 +55036,7 @@ var MainView = /*#__PURE__*/function (_React$Component) {
         onClick: function onClick() {
           return _this3.onLoggedOut();
         }
-      }, "Log out")))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+      }, "Log out")))) : /*#__PURE__*/_react.default.createElement("div", null), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/",
         render: function render() {
@@ -55319,7 +55319,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52183" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58286" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
