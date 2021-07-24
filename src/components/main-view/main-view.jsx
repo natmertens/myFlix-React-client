@@ -78,6 +78,7 @@ export class MainView extends React.Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <Nav.Link as={Link} to={`/users/${user}`} target='_self'>Profile</Nav.Link>
+                <Nav.Link as={Link} to={'/'} target='_self'>See Movies</Nav.Link>
                 <Nav.Link as={Link} to={'/'} target='_self' onClick={() => this.onLoggedOut()}>Log out</Nav.Link>
 
               </Nav>

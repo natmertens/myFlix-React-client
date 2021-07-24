@@ -55032,6 +55032,10 @@ var MainView = /*#__PURE__*/function (_React$Component) {
       }, "Profile"), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Nav.Link, {
         as: _reactRouterDom.Link,
         to: '/',
+        target: "_self"
+      }, "See Movies"), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Nav.Link, {
+        as: _reactRouterDom.Link,
+        to: '/',
         target: "_self",
         onClick: function onClick() {
           return _this3.onLoggedOut();
