@@ -18,7 +18,7 @@ export class GenreView extends React.Component {
 
   render() {
     const { genre, movies } = this.props
-    console.log(genre);
+    /*console.log(genre);*/
 
     /*create new array of movies with a specific genre*/
     const genreMovies = movies.filter(movie =>

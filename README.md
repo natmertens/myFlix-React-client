@@ -1,5 +1,7 @@
 # myFlix-React-client
 
+![Movies Main View] (./src/img/react_client_screenshot.png)
+
 ## Project Overview:
 
 This is the React-based client-side of a movies application based on an already existing server-side code (REST API and database) created in an earlier project. The application gives users who register access to information about different movies, including their directors, and genres. It also allows them to update their user profile, add movies to and remove movies from a list of favorites, and delete their account.

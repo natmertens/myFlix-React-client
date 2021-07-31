@@ -18,7 +18,7 @@ export class DirectorView extends React.Component {
 
   render() {
     const { director, movies } = this.props
-    console.log(director)
+    /*console.log(director)*/
 
     /*create new array of movies by a specific director*/
     const directorMovies = movies.filter(movie =>

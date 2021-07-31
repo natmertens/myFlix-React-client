@@ -40416,7 +40416,8 @@ var DirectorView = /*#__PURE__*/function (_React$Component) {
       var _this$props = this.props,
           director = _this$props.director,
           movies = _this$props.movies;
-      console.log(director);
+      /*console.log(director)*/
+
       /*create new array of movies by a specific director*/
 
       var directorMovies = movies.filter(function (movie) {
@@ -40562,7 +40563,8 @@ var GenreView = /*#__PURE__*/function (_React$Component) {
       var _this$props = this.props,
           genre = _this$props.genre,
           movies = _this$props.movies;
-      console.log(genre);
+      /*console.log(genre);*/
+
       /*create new array of movies with a specific genre*/
 
       var genreMovies = movies.filter(function (movie) {
@@ -55323,7 +55325,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58286" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53849" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
