@@ -134,9 +134,10 @@ export class ProfileView extends React.Component {
 
         </Form>
 
-        {favorites.length === 0
-          ? <div className="favorites" />
-          : <div className="favorite-movies">
+        {favorites.length === 0 ?
+          <div className="favorites" />
+          :
+          <div className="favorite-movies">
             <h3 className="text-danger">Your Favorite Movies</h3>
 
             <Container>

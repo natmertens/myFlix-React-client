@@ -40,12 +40,13 @@ export class DirectorView extends React.Component {
             <span className="label">Birth: </span>
             <span>{director.Director.Birth}</span>
           </div>
-          {director.Director.Death
-            ? <div className="director-death">
+          {director.Director.Death ?
+            <div className="director-death">
               <span className="label">Death: </span>
               <span>{director.Director.Death}</span>
             </div>
-            : <div className="director-death" />}
+            :
+            <div className="director-death" />}
         </div>
 
         <div className="director-movies text-center">
