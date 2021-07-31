@@ -1,6 +1,6 @@
 # myFlix-React-client
 
-![Movies Main View] (/src/img/react_client_screenshot.png)
+![movies-main-view] (./img/react_client_screenshot.png)
 
 ## Project Overview:
 
