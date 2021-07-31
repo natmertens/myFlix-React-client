@@ -1,6 +1,12 @@
 # myFlix-React-client
 
+![welcome-view](img/welcome.png)
+
 ![main-view](img/react_client_screenshot.png)
+
+![favorite-movies-view](img/favorite_movies.png)
+
+![profile.view](img/profile.png)
 
 ## Project Overview:
 
